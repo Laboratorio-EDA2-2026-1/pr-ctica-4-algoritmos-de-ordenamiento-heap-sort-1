@@ -44,7 +44,6 @@ void swap(int *a, int *b) {
     *b = temp;
 }
 
-/* IMPLEMENTAR AQUÍ */
 void max_heapify(int a[], int n, int i) {
     int mayor = i;
     int izq = 2 * i + 1;
